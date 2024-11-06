@@ -1,0 +1,269 @@
+VOICE ASSISTANT
+
+Mind that jarvis.py is the file to be executed not main.py .
+
+For executing this code you need python installed in your system.
+	You can download it from :
+		- Microsoft store,
+		- Python official website : https://www.python.org/downloads/
+		
+After installing python add python path to system variables(Check if path is added or not. If not then do the following.).
+	By default your python file should installed at this location : C:\Users\[User name]\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts
+	In environment variables/system variables/path/edit/in right sidebar click new/paste/write your path to folder containing ipython.exe(by default path looks like given in above line.) 
+	Click Ok to add path.
+	Now you should be able to execute your python files from command prompt.
+	
+Add chrome driver.
+	I have provided a chromedriver.exe you can add that if it doesn't work then you can download it from here.
+	You can Download chrome driver from :
+		- From google website : https://developer.chrome.com/docs/chromedriver/downloads
+		- Download direct zip file from here : https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.58/win64/chromedriver-win64.zip
+	Extract zip file and put Chromedriver.exe file in your folder which is used for runnig jarvis.py
+		
+Run repository code in your local system.
+		Create a folder or use your existing one.
+		Keep all the files downloaded from this repository in selected folder.
+		Add Chromedriver.exe in this folder.
+		Make sure you download all the files provided in this repository to use all the functionality.
+		Open command prompt and type : pip install -r requirement.txt (This will download all the Dependencies to run this code and need around 300-400 mb data.)
+		After this you can open IDE and run jarvis.py .
+			
+Voice command to use functionality.
+	hey jarvis.
+		To activate voice assistant.
+	
+	jai [shree ram].
+		With this command jarvis will say jai [any god name after jai].
+		
+	what is time now.
+		This will tell you current system time.
+		
+	open file explorer. 
+		This will open file explorer.
+	
+	close file explorer. 
+		This will close file explorer.
+		
+	open notepad. -> You have to give your own path.
+		yes write in file.
+			With this command you can write in a file in notepad via voice command.
+		No don't write.
+			With this command jarvis will open notepad only.
+	
+	close notepad. 
+		This command will close notepad.
+	
+	open command promt.
+		This will open command prompt.
+		
+	close command prompt.
+		This will close command prompt.
+	
+	open visual studio code. -> You have to give your own path.
+		This will open visual studio code.
+		
+	close visual studio code. 
+		This will close visual studio code.
+		
+	open excel. -> You have to give your own path.
+		This will open microsoft excel.
+		
+	close excel. -> You have to give your own path.
+		This will close microsoft excel.
+		
+	open word. -> You have to give your own path.
+		This will open microsoft word.
+		
+	close word. -> You have to give your own path.
+		This will close microsoft word.
+		
+	open download. -> You have to give your own path.
+		This will open downloads folder.
+		
+	close download. -> You have to give your own path.
+		This will close downloads folder.
+		
+	open document. -> You have to give your own path.
+		This will open documents folder.
+		
+	close document. -> You have to give your own path.
+		This will close documents folder.
+		
+	minimize document. -> You have to give your own path.
+		This will minimize documents folder.
+	
+	open desktop. -> You have to give your own path.
+		This will open desktop folder.
+		
+	close desktop. -> You have to give your own path.
+		This will close desktop folder.
+	
+	open screenshot. -> You have to give your own path.
+		This will open screenshot folder.
+		
+	close screenshot. -> You have to give your own path.
+		This will close screenshot folder.
+		
+	open setting.
+		This will open settings.
+		
+	close setting.
+		This will close settings.
+		
+	cuurent volumn.
+		This will give current system volumn.
+		
+	volumn to [number e.g. volumn to 50].
+		This will set system volumn to [number told after volumn to.].
+		
+	volumn up.
+		This will increase system volumn once.
+		
+	volumn down.
+		This will decrease system volumn once.
+		
+	mute.
+		This will mute system volumn.
+		For unmute system volumn say "mute" again.
+	
+	unmute.
+		This will unmute system volumn.
+		For mute system volumn say "unmute" again.
+		
+	open camera.
+		This will open camera.
+		
+	switch tab.
+		This will switch from one application to another application.
+	
+	change tab.
+		This will switch between tabs opened in browser.
+		
+	close tab.
+		This will close a tab opened in browser.
+		
+	[Your question] in/from wikipedia.
+		This will search your question in wikipedia and return answer got from wikipedia.
+		
+	search in youtube. (Wait while jarvis asks you to what to search.) [say anything you want to search.]
+		This searches in youtube anything you want to search.
+		Keep in mind that search in youtube is activating search after that Wait while jarvis asks you to what to search after that say what you want to search.
+		
+	open youtube.
+		This will open youtube.
+		
+	open chess.
+		This will open chess.com .
+		
+	open chatgpt.
+		This will open chatgpt.
+		
+	open gemini.
+		This will open google gemini.
+		
+	open jiocinema.
+		This will open jiocinema.
+		
+	search in google. (Wait while jarvis asks you to what to search.) [say anything you want to search.]
+		This will search in google anything you want to search.
+		Keep in mind that search in google is activating search after that Wait while jarvis asks you to what to search after that say what you want to search.
+		
+	close google.
+		This will close google chrome.
+		Keep in mind that this will close chrome only when you are working on chrome.
+		
+	play favourite song. (Wail while jarvis asks you which playlist or song you want to play.) [say a number of your playlist or song.] -> You have to give your own playlist link.
+		This will play your predefined playlist or song in youtube.
+		After jarvis asks you which playlist or song you want to play you can say following : 
+		- A number for specific playlist or song.
+		- Play random for randomly play playlist or song.
+	
+	play song on youtube. (Wait while jarvis asks you to play which song.) [say a song name.]
+		This will play a specific song what you say on youtube.
+		Keep in mind that play song on youtube is to activate youtube you give a song name after jarvis asks for a song name.
+		
+	set alarm. (Wait while jarvis asks you for which time to set alarm.) [say a time to set alarm.]
+		This will set an alarm.
+		Keep in mind that you have to say specific time e.g. 05:10 PM(you have to say zero as well.) to set alarm after jarvis asks you for time.
+		
+	tell me a joke.
+		This will tell you a joke.
+		
+	pick up/accept/recieve call.
+		This will pick up the call.
+		Keep in mind that this feature will only work when your phone is connected to microsoft phone link.
+		
+	pick up/accept/recieve call and transfer call.
+		This will pick up call and transfer it to your connected phone.
+		Keep in mind that this feature will only work when your phone is connected to microsoft phone link.
+		
+	decline/reject call.
+		This will decline the call.
+		Keep in mind that this feature will only work when your phone is connected to microsoft phone link.
+		
+	end call.
+		This will end the call.
+		Keep in mind that this feature will only work when you have already accepted a call.
+		
+	what is my location.
+		This will tell you your location.
+		
+	instagram profile. (Wait while jarvis asks you for download profile picture.) [say yes/download for download profile picture.]
+		This will show you instagram profile of user and can download profile picture of the user name you provided.
+		You have to provide instagram profile name manually.
+	
+	take screenshot. (Wait while jarvis asks you for file name.) [Provide only file name via voice.] -> You have to give your own path.
+		This will take screenshot and save it to your provided path.
+		Keep in mind that take screenshot is for activating screenshot feature after activating you have to provide file name when jarvis asks for it.
+		
+	hide all file.
+		This will hide all the files in current folder.
+		
+	unhide all file.
+		This will unhide all the files in current folder.
+		
+	read pdf.
+		This will read a full page.
+		You have to put your pdf in folder that have jarvis.py and give name of that pdf in code manually.
+		You have to input a page number manually.
+		
+	activate how to mod. (Wait while jarvis activates how to mod.) [say for what thing you want to know steps for.]
+		This will provide you full steps to make something.
+		Keep in mind that tell the thing you want to know steps of after jarvis say how to mod activated.
+		
+	what is battery percentage.
+		This will tell you system battery percentage.
+		
+	do some calculations.
+		This will calculate math operations.
+		Keep in mind that you have to say as follows - 2 + 2.
+		
+	generate password. (Wait while jarvis asks you lenght of your password.) [say lenght of your password e.g. 10.]
+		This will generate you a strong password containing letters,numbers,special characters.
+		Keep in mind that say lenght after jarvis asks you for lenght.
+		
+	scrape website.
+		This will scrape data from website and perform tasks on scraped data.
+		Keep in mind that you have to provide link of that website that is to be scraped.
+		
+	let's play a game. (Wait whie jarvis asks you which game you want to play.) [say any game name curruntly available "rock paper scissors","number guesser","chess".]
+		This will play some games with you. You have select which game you want to play.
+	
+	shut down system.
+		This will shut down the system.
+		
+	restart system.
+		This will restart the system.
+	
+	sleep system.
+		This will switch system in sleep mode.
+		
+	check internet speed.
+		This will tell you download and upload speed of your network.
+		
+	[ask any proper question e.g. can you write me a code for hello world in java?].
+		This will give you answer and interact with you as well.
+		
+	you can rest.
+		This will make jarvis wait.
+		Keep in mind that this command will not terminate code you can again activate jarvis saying "hey jarvis" without re-executing your code.
